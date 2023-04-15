@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
+    <link rel="shortcut icon"
+      href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg"
+      type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Platform</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="html.html"><img src="images/hill.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <h1>Our Certificate </h1>
+    </section>
+<!------------- blog page content------------>
+  <!--------------Certificate Patners------------------->
+  <section class="certificate">
+    <h1>Official Certificate Patners</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+        <div class="certificate-col">
+            <img src="images/unity.png">
+        </div>
+        <div class="certificate-col">
+            <img src="images/autodesk.png">
+        </div>
+        <div class="certificate-col">
+            <img src="images/ibm.svg">
+        </div>
+        <div class="certificate-col">
+            <img src="images/Swift_logo.png">
+        </div>
+        <div class="certificate-col">
+            <img src="images/microsoft.png">
+        </div>
+    </div>
+</section>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/partner certificate ibm.png">
+            <h2>Our Certificate for IBM </h2>
+            <p>IBM Professional Certification is both a journey and a destination. It's a business solution. A way for skilled IT professionals to demonstrate their expertise to the world. It validates your skills and demonstrates your proficiency in the latest IBM technology and solutions.</p>
+            <br>
+            <p>Can apply Data Science methodology - work with Jupyter notebooks - create Python apps - access relational databases using SQL & Python - use Python libraries to generate data visualizations - perform data analysis using Pandas - construct & evaluate Machine Learning (ML) models using Scikit-learn & SciPy and apply data science & ML techniques to real location data sets.</p>
+            <br>
+            <p>The IBM Data Science Professional Certificate is a great way for professionals to refresh or gain new skills in data science. If you're already in the field, it will help you make sure that your skills are up-to-date with the latest technologies and best practices.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+        <h3>Courses We Offer</h3>
+        <div> 
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learning with Python</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Full Stack Web Development</span>
+            <span>25</span>
+        </div>
+        <div>
+            <span>Data Structure & Algorithms</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Artificial Intelligence</span>
+            <span>20</span>
+        </div>
+        <div>
+            <span>HTML 5</span>
+            <span>22</span>
+        </div>
+        <div>
+            <span>Java</span>
+            <span>40</span>
+        </div>
+        <div>
+            <span>cpp</span>
+            <span>32</span>
+        </div>
+        <div>
+            <span>Angular js</span>
+            <span>29</span>
+        </div>
+        <div>
+            <span>Full Stack Java</span>
+            <span>40</span>
+        </div>
+    </div>
+</section>
+
+ <!----------------Footer---------------->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Hills provides a wide range of e-learning services under one roof.<br> Hills Edutech Private Limited © 2023. All Rights Reserved</p>
+    <div class="icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Sejal Sharma</p>
+
+ </section>
+
+    <!-------- Java script for toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

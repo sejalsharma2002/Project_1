@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
+    <link rel="shortcut icon"
+      href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg"
+      type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Platform</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="html.html"><img src="images/hill.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <h1>Our Courses</h1>
+    </section>
+ <!--------courses------------>
+ <section class="course">
+    <h1>Trending Courses </h1>
+    <p>The most wanted couses that todays world is going throught which help to build a world with full of hopes</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Full Stack Java</h3>
+            <p>It is concerned with both front-end and back-end technologies. A typical full-stack development course would familiarize you with programming languages and tools like Spring, Java, Typescript, Oracle, Git, Hibernate, React, AWS, Selenium WebDriver, and so on.</p>
+        </div>
+        <div class="course-col">
+            <h3>Data Science</h3>
+            <p>tudy programs in data science typically focus on big data analytics, data visualization, statistics, and predictive analytics. The curriculum is designed for individuals pursuing technical job positions, such as data scientists, data analysts, business analysts, and machine learning engineers.</p>
+        </div>
+        <div class="course-col">
+            <h3>Big Data</h3>
+            <p>Big data certifications can help you go after more diverse roles than specific data science jobs. You can opt for different specializations depending on your background and career aspirations. Generally, learning tracks of big data certifications include:Business Analytics, Data Engineer, Natural Language Processing, Deep Learning , Business Intelligence</p>
+        </div>
+        <div class="course-col">
+            <h3>DevOps</h3>
+            <p>As the title suggests, DevOps combines the Development and Operations arms of software applications. In today’s fast-paced marketplace, tech companies need to stay ahead of their competitors. And DevOps enables agile methods in software development. A DevOps-oriented study program would emphasize the following things: Agile methodologies for integration and deployment, Creation and management of software lifecycle, Continuous deployment through CI/CD practices and many more</p>
+        </div>
+
+    </div>
+</section>
+ <!--------------Picture of Courses-------------->
+ <section class="picture">
+    <h1> Courses We Suggest</h1>
+    <p>The one which we include for you to learn</p>
+    <div class="row">
+        <div class="picture-col">
+            <img src="images/html5.png">
+            <div class="layer">
+                <h3>HTML</h3>
+            </div>
+        </div>
+        <div class="picture-col">
+            <img src="images/css(1).png">
+            <div class="layer">
+                <h3>CSS</h3>
+            </div>
+        </div>
+        <div class="picture-col">
+            <img src="images/javascript.png">
+            <div class="layer">
+                <h3>JAVASCRIPT</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!----------------Footer---------------->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Hills provides a wide range of e-learning services under one roof.<br> Hills Edutech Private Limited © 2023. All Rights Reserved</p>
+    <div class="icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Sejal Sharma</p>
+
+ </section>
+
+    <!-------- Java script for toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

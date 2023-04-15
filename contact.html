@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
+    <link rel="shortcut icon"
+      href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg"
+      type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Platform</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="html.html"><img src="images/hill.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <h1>Contact Us</h1>
+    </section>
+    <!-------------Contact us ---------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.03447396975!2d73.86296739999999!3d18.52461645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1681564284643!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Pune, Maharashtra, IN</p>
+                    </span>
+                </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 0123456789</h5>
+                    <p>Monday to Saturday, 8 AM to 10 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>support@yhills.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+        </div>
+    </section>
+  
+ <!----------------Footer---------------->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Hills provides a wide range of e-learning services under one roof.<br> Hills Edutech Private Limited © 2023. All Rights Reserved</p>
+    <div class="icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Sejal Sharma</p>
+
+ </section>
+
+    <!-------- Java script for toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento" rel="stylesheet">
+    <link rel="shortcut icon"
+      href="https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg"
+      type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Platform</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="html.html"><img src="images/hill.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>  
+        <h1>About Us</h1>
+    </section>
+    <!-------------About us content ---------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best institues for programming</h1>
+                <p>Hills came into being as a comprehensive platform to offer customised cost-effective training to college students and fresh graduates by professionals in the industry. We have trained 15,000+ students and the learners truly rave at the value addition re-affirming the tagline "Learning Beyond Expectations</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/programming.jpg">
+            </div>
+        </div>
+    </section>
+   
+ <!----------------Footer---------------->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Hills provides a wide range of e-learning services under one roof.<br> Hills Edutech Private Limited © 2023. All Rights Reserved</p>
+    <div class="icons">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Sejal Sharma</p>
+
+ </section>
+
+    <!-------- Java script for toggle Menu--------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
